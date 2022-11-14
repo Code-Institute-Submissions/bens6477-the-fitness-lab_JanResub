@@ -1,0 +1,37 @@
+[
+    {
+      "pk": 1,
+      "model": "items.category",
+      "fields": {"name": "hoodies","display_name": "Hoodies"}
+    },
+    {
+      "pk": 2,
+      "model": "items.category",
+      "fields": {"name": "jackets","display_name": "Jackets"}
+    },
+    {
+      "pk": 3,
+      "model": "items.category",
+      "fields": {"name": "shorts","display_name": "Shorts"}
+    },
+    {
+      "pk": 4,
+      "model": "items.category",
+      "fields": {"name": "tshirts","display_name": "T-Shirts"}
+    },
+    {
+      "pk": 5,
+      "model": "items.category",
+      "fields": {"name": "tops","display_name": "Tops"}
+    },
+    {
+      "pk": 6,
+      "model": "items.category",
+      "fields": {"name": "trainers","display_name": "Trainers"}
+    },
+    {
+      "pk": 7,
+      "model": "items.category",
+      "fields": {"name": "trousers","display_name": "Trousers"}
+    }
+]
