@@ -3,6 +3,10 @@ from django.db import models
 
 class Category(models.Model):
     """ Model for categories of items """
+
+    class Meta:
+        verbose_name_plural = 'Categories'
+
     name = models.CharField(max_length=250)
     display_name = models.CharField(max_length=250, blank=True, null=True)
 
