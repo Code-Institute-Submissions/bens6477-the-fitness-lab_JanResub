@@ -10,15 +10,27 @@ def basket_contents(request):
     item_count = 0
     basket = request.session.get('basket', {})
 
-    for item_id, quantity in basket.items():
-        item = get_object_or_404(Item, pk=item_id)
-        total += quantity * item.price
-        item_count += quantity
-        basket_items.append({
-            'item_id': item_id,
-            'quantity': quantity,
-            'item': item,
-        })
+    for item_id, item_data in basket.items():
+        if isinstance(item_data, int):
+            item = get_object_or_404(Item, pk=item_id)
+            total += item_data * item.price
+            item_count += item_data
+            basket_items.append({
+                'item_id': item_id,
+                'quantity': item_data,
+                'item': item,
+            })
+        else:
+            item = get_object_or_404(Item, pk=item_id)
+            for size, quantity in item_data['items_by_size'].items():
+                total += quantity * item.price
+                item_count += quantity
+                basket_items.append({
+                    'item_id': item_id,
+                    'quantity': item_data,
+                    'item': item,
+                    'size': size,
+                })
 
     if total < settings.FREE_DELIVERY_THRESHOLD:
         delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
