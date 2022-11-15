@@ -23,6 +23,7 @@ class Item(models.Model):
     name = models.CharField(max_length=250)
     brand = models.CharField(max_length=25, null=True, blank=True)
     description = models.TextField()
+    has_sizes = models.BooleanField(default=False, null=True, blank=True)
     sku = models.CharField(max_length=250, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     color = models.CharField(max_length=25, null=True, blank=True)
