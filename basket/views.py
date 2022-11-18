@@ -79,6 +79,7 @@ def remove_from_basket(request, item_id):
     """Remove the item from the shopping basket"""
 
     try:
+        print('remove_from_basket')
         item = get_object_or_404(Item, pk=item_id)
         size = None
         if 'item_size' in request.POST:
