@@ -94,8 +94,8 @@ def edit_item(request, item_id):
     if request.method == 'POST':
         form = ItemForm(request.POST, request.FILES, instance=item)
         if form.is_valid():
-            form.save()
-            messages.success(request, 'Successfully updated item!')
+            item = form.save()
+            messages.success(request, 'Successfully added item!')
             return redirect(reverse('item_detail', args=[item.id]))
         else:
             messages.error(request, 'Failed to update item. Please ensure the form is valid.')
@@ -110,3 +110,11 @@ def edit_item(request, item_id):
     }
 
     return render(request, template, context)
+
+
+def delete_item(request, item_id):
+    """ Delete a item from the store """
+    item = get_object_or_404(Item, pk=item_id)
+    item.delete()
+    messages.success(request, 'Item deleted!')
+    return redirect(reverse('items'))
