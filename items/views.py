@@ -165,3 +165,13 @@ def delete_item(request, item_id):
     item.delete()
     messages.success(request, 'Item deleted!')
     return redirect(reverse('items'))
+
+
+def delete_review(request, review_id):
+    """
+    Deletes a users review from the 'Review' model
+    """
+    review = get_object_or_404(Review, pk=review_id)
+    item_id = review.item_id
+    review.delete()
+    return redirect('item_detail', item_id=item_id)
