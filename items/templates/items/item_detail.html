@@ -109,6 +109,64 @@
                 </div>
             </div>
         </div>
+        <!-- User Reviews section -->
+        <div class="container mt-3 mb-5 pb-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-7 card-body">
+                            <!-- List of previously submitted reviews -->
+                            <h2>Reviews:</h2>
+                            {% for review in reviews %}
+                            <div class="review-list">
+                                <div class="mb-2 ms-1">
+                                    <div class="row">
+                                        <p class="fw-bold mb-0">
+                                            {{ review.user }}:
+                                            <span class="text-muted">
+                                                {{ review.review_date }}
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="ms-0 row">
+                                        {{ review.body }}
+                                    </div>
+                                </div>
+                                {% if user == review.user %}
+                                <a href="" class="btn btn-danger mb-1">Delete
+                                    Review</a>
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                            <!-- Limits the number of reviews on display to 4 -->
+                            {% if reviews.count > 4 %}
+                            <div class="row">
+                                <button id="load-reviews" class="btn btn-primary content-width mt-2 mx-auto">More
+                                    Reviews</button>
+                            </div>
+                            {% endif %}
+                        </div>
+                        <!-- Form that allows logged in users to leave a review -->
+                        {% if user.is_authenticated %}
+                        <div class="col-12 col-md-5 pe-4 card-body">
+                            <div class="mb-4 mt-3">
+                                <form method="POST" class="mb-4">
+                                    {% csrf_token %}
+                                    <div class="row">
+                                        <textarea class="form-control ms-0 me-5" name="body" id="50" cols="5"
+                                            rows="id_body" placeholder="Leave a review"></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <button type="submit" class="mt-2 mx-auto btn btn-primary">Add Review</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
 

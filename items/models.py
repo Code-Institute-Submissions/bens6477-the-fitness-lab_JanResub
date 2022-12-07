@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 class Category(models.Model):
@@ -34,3 +35,19 @@ class Item(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Review(models.Model):
+    """ Model to store reviews submitted by users """
+    item = models.ForeignKey(Item, on_delete=models.CASCADE,
+                             related_name='item_review')
+    user = models.ForeignKey(User, on_delete=models.CASCADE,
+                             related_name='review_user')
+    review_date = models.DateTimeField(auto_now_add=True)
+    body = models.TextField()
+
+    def __str__(self):
+        """
+        Returns a generic statement when the model is called
+        """
+        return self.body
