@@ -86,14 +86,6 @@ def item_detail(request, item_id):
     }
     return render(request, template, context)
 
-    # item = get_object_or_404(Item, pk=item_id)
-
-    # context = {
-    #     'item': item,
-    # }
-
-    # return render(request, 'items/item_detail.html', context)
-
 
 @login_required
 def add_item(request):
@@ -165,6 +157,32 @@ def delete_item(request, item_id):
     item.delete()
     messages.success(request, 'Item deleted!')
     return redirect(reverse('items'))
+
+
+def edit_review(request, review_id):
+    """ A view to show individual item details """
+    review = get_object_or_404(Review, pk=review_id)
+    item_id = review.item_id
+    item = get_object_or_404(Item, pk=item_id)
+    user_id = request.user
+    form = ReviewForm()
+    template = 'items/item_detail.html'
+    if request.method == "POST":
+        form = ReviewForm(request.POST, instance=item)
+        if form.is_valid():
+            review = Review()
+            review.item = item
+            review.user = request.user
+            review.body = form.cleaned_data["body"]
+            review.save()
+            # return redirect('item_detail', item_id=item_id)
+
+    context = {
+        'item': item,
+        'item_id': item_id,
+        'form': form,
+    }
+    return render(request, template, context)
 
 
 def delete_review(request, review_id):

@@ -133,8 +133,8 @@
                                     </div>
                                 </div>
                                 {% if user == review.user %}
-                                <a href="{% url 'delete_review' review.id %}" class="btn btn-danger mb-1">Delete
-                                    Review</a>
+                                <a href="#" class="edit-review btn btn-info mb-1">Edit Review</a>
+                                <a href="{% url 'delete_review' review.id %}" class="btn btn-danger mb-1">Delete Review</a>
                                 {% endif %}
                             </div>
                             {% endfor %}
@@ -153,8 +153,8 @@
                                 <form method="POST" class="mb-4">
                                     {% csrf_token %}
                                     <div class="row">
-                                        <textarea class="form-control ms-0 me-5" name="body" id="50" cols="5"
-                                            rows="id_body" placeholder="Leave a review"></textarea>
+                                        <textarea class="form-control ms-0 me-5" name="body" id="id_body" cols="5"
+                                            rows="5" placeholder="Leave a review"></textarea>
                                     </div>
                                     <div class="row">
                                         <button type="submit" class="mt-2 mx-auto btn btn-primary">Add Review</button>
@@ -173,4 +173,13 @@
 {% block postloadjs %}
 {{ block.super }}
 {% include 'items/includes/quantity_input_script.html' %}
+<script type="text/javascript">
+    console.log('Loaded');
+
+    // Populate review body on click
+    $('.edit-review').click(function() {
+        console.log('review-body clicked');
+        $('#id_body').text("Populate text with review body");
+    })
+</script>
 {% endblock %}
