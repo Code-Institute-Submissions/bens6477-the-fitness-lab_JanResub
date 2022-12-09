@@ -3,11 +3,13 @@
     overflow-y: auto;
 }
 
-#profile-update-form .form-control {
+#profile-update-form .form-control,
+#newsletter-update-form .form-control {
     color: #000;
 }
 
-#profile-update-form input::placeholder {
+#profile-update-form input::placeholder,
+#newsletter-update-form input::placeholder {
     color: #aab7c4;
 }
 

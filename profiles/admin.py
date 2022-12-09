@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import UserProfile
+from .models import UserProfile, Newsletter
 
 
 class UserProfileAdmin(admin.ModelAdmin):
@@ -19,4 +19,17 @@ class UserProfileAdmin(admin.ModelAdmin):
     ordering = ('-user',)
 
 
+class NewsletterAdmin(admin.ModelAdmin):
+
+    readonly_fields = ('user')
+
+    fields = ('user', 'is_registered')
+
+    list_display = ('user', 'is_registered')
+
+    ordering = ('-user',)
+
+
 admin.site.register(UserProfile)
+admin.site.register(Newsletter)
+

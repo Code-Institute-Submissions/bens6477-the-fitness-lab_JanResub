@@ -37,3 +37,15 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
         UserProfile.objects.create(user=instance)
     # Existing users: just save the profile
     instance.userprofile.save()
+
+
+class Newsletter(models.Model):
+    """
+    A newsletter model for maintaining the users who have subscribed
+    to the mailing list.
+    """
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    is_registered = models.BooleanField(default=False, null=True, blank=True)
+
+    def __str__(self):
+        return self.user.username

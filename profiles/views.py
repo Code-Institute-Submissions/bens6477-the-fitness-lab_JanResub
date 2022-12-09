@@ -2,8 +2,8 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
-from .models import UserProfile
-from .forms import UserProfileForm
+from .models import UserProfile, Newsletter
+from .forms import UserProfileForm, NewsletterForm
 
 from checkout.models import Order
 
@@ -31,6 +31,33 @@ def profile(request):
         'form': form,
         'orders': orders,
         'on_profile_page': True
+    }
+
+    return render(request, template, context)
+
+
+@login_required
+def newsletter(request):
+    """ Display the user's newsletter page. """
+    newsletter = get_object_or_404(Newsletter, user=request.user)
+    form = NewsletterForm(instance=newsletter)
+    if form:
+        messages.success(request, 'Newsletter updated successfully')
+
+    if request.method == 'POST':
+        # form = NewsletterForm(request.POST, instance=newsletter)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Newsletter updated successfully')
+        else:
+            messages.error(request,
+                           ('Update failed. Please ensure the form is valid.'))
+    else:
+        form = NewsletterForm(instance=newsletter)
+
+    template = 'profiles/newsletter.html'
+    context = {
+        'form': form,
     }
 
     return render(request, template, context)
