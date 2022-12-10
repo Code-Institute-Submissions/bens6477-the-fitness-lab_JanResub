@@ -17,8 +17,14 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">Add Newsletter Subscription</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-12 col-lg-6">
-                Newsletter
                 <p class="text-muted">Newsletter Signup</p>
                 <form class="mt-3" action="{% url 'add_newsletter' %}" method="POST" id="newsletter-update-form">
                     {% csrf_token %}
@@ -31,9 +37,6 @@
                     </a>
                     <button class="btn btn-black rounded-0 text-uppercase float-right">Add Email</button>
                 </form>
-            </div>
-            <div class="col-12 col-lg-6">
-                {{ newsletter.user }}
             </div>
         </div>
     </div>
