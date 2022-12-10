@@ -5,7 +5,7 @@
 
 [Live Site Link](https://thefitnesslab.herokuapp.com/)
 
-![Site Overview]()
+![Site Overview](media/site_overview.webp)
 
 
 
@@ -20,18 +20,16 @@ A key advantage of this approach was the iterative and incremental development, 
 
 GitHub Projects was used to organise the project tasks and timeline. A kanban board was used to move user stories across To Do, In Progress and Done columns according to their status.
 
-![Kanban]()
+![Kanban 1](media/kanban1.webp)
+![Kanban 2](media/kanban2.webp)
 
 
 
 ### Data Model
 * This project used Object Oriented programming, utilising model classes to define data.
 * PostgreSQL was used to create a relational database of objects
-* Four classes were defined: *****************User, Country, Article and Comment*****************
 * Data fields were defined for each parameter
 * Foreign key fields were used to reference objects in different tables
-
-![Database model](readme_images/database_model.png)
 
 
 
@@ -64,7 +62,8 @@ Email marketing will be a key part in increasing website traffic where The newsl
 Using paid adverts such as Google ads will not initially be a priority due to the cost but will be in the future.
 
 
-
+![Facebook Image 1](media/facebook_image1.webp)
+![Facebook Image 2](media/facebook_image1.webp)
 
 
 
