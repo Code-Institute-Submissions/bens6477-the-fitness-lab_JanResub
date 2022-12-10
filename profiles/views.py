@@ -1,4 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404
+)
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
@@ -44,7 +46,6 @@ def add_newsletter(request):
     newsletter = Newsletter(user=request.user)
 
     if request.method == 'POST':
-        print('POST')
         form = NewsletterForm(request.POST, request.FILES, instance=newsletter)
         if form.is_valid():
             form.save()
@@ -53,10 +54,9 @@ def add_newsletter(request):
             messages.error(request,
                         ('Update failed. Please ensure the form is valid.'))
     else:
-        print('not POST')
         form = NewsletterForm(instance=newsletter)
 
-    template = 'profiles/newsletter.html'
+    template = 'profiles/add_newsletter.html'
     context = {
         'form': form,
         'newsletter': newsletter,
@@ -69,11 +69,8 @@ def add_newsletter(request):
 def edit_newsletter(request, newsletter_id):
     """ Display the user's newsletter page. """
     newsletter = Newsletter.objects.get(pk=newsletter_id)
-    print('newsletter 2')
-    print(newsletter)
 
     if request.method == 'POST':
-        print('POST')
         form = NewsletterForm(request.POST, request.FILES, instance=newsletter)
         if form.is_valid():
             form.save()
@@ -82,18 +79,24 @@ def edit_newsletter(request, newsletter_id):
             messages.error(request,
                         ('Update failed. Please ensure the form is valid.'))
     else:
-        print('not POST')
         form = NewsletterForm(instance=newsletter)
-        print('after form')
 
-    template = 'profiles/newsletter.html'
+    template = 'profiles/edit_newsletter.html'
     context = {
         'form': form,
         'newsletter': newsletter,
     }
 
-    print('before return')
     return render(request, template, context)
+
+
+@login_required
+def delete_newsletter(request, newsletter_id):
+    """ Display the user's newsletter page. """
+    newsletter = get_object_or_404(Newsletter, pk=newsletter_id)
+    newsletter.delete()
+    messages.success(request, 'Email deleted!')
+    return redirect(reverse('profile'))
 
 
 def order_history(request, order_number):

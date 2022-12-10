@@ -9,4 +9,6 @@ urlpatterns = [
     path('newsletter/add/', views.add_newsletter, name='add_newsletter'),
     path('newsletter/edit/<int:newsletter_id>/', views.edit_newsletter,
          name='edit_newsletter'),
+    path('newsletter/delete/<int:newsletter_id>/', views.delete_newsletter,
+         name='delete_newsletter'),
 ]
