@@ -13,14 +13,6 @@
 
 ## Planning
 
-### Wireframes
-
-Several wireframes were made prior to building the website to plan the desired layout and functionality.
-
-![Wireframes]()
-![Wireframes]()
-![Wireframes]()
-
 ### Agile Approach
 This project was implemented using an Agile approach to take advantage of the iterative and incremental development.
 
@@ -45,11 +37,6 @@ GitHub Projects was used to organise the project tasks and timeline. A kanban bo
 
 
 
-## Features
-
-
-
-
 
 
 ## Future Enhancements
@@ -58,7 +45,23 @@ Various additional features would bring a greater user experience to the website
 * Allow users to interactively add a rating to the products.
 * Add a sale and deals section and have the first products a customer see be items on sale.
 * Add a wishlist so users can add products which they would like to buy in the future to.
-* Add a related products section where users can see simmilar products to the one they are currently viewing.
+* Add a related products section where users can see similar products to the one they are currently viewing.
+
+
+
+
+
+## Marketing
+
+A Facebook page was created to help generate business for the site and to raise awareness of the brand.
+
+Using organic social media will be a key way in developing the business. The aim is to have a presence on other social media sites such as Twitter, Instagram and LinkedIn as these are the main social media channels young adult men would use.
+
+Using paid social media will also be a key target as focussing on advertising to users who have already visited the site will increase revenue. This can cost a significant amount but, when used correctly and intentionally, in the long term it will produce good results.
+
+Email marketing will be a key part in increasing website traffic where The newsletter sign-up is the first stage of retrieving emails.
+
+Using paid adverts such as Google ads will not initially be a priority due to the cost but will be in the future.
 
 
 
@@ -97,17 +100,6 @@ Various additional features would bring a greater user experience to the website
 
 
 ## Testing
-### Functionality Testing
-
-* **Test 🧪** - 
-    * **Result 🏆** - 
-    * **Verdict ✅** - 
-
-* **Test 🧪** - 
-    * **Result 🏆** - 
-    * **Verdict ✅** - 
-
-
 ### Validator Testing
 * HTML
     * No errors were found when running the HTML code through the [official W3C validator](https://validator.w3.org/)
@@ -120,28 +112,14 @@ Various additional features would bring a greater user experience to the website
 * Accessibility
     * A high level of accessibility was returned when Lighthouse was ran in Google Chrome developer tools
 
-![Accessibility Score]()
-
-
-
-### Bugs
-* **Problem 🐞** - 
-    * **Resolution ✅** - 
-
-* **Problem 🐞** - 
-    * **Resolution ✅** - 
-
-
-
-### Unfixed Bugs
-* No known bugs have been left unfixed
-
 ### Flake8 Linting Errors
 * All linting errors returned by flake8 were fixed to ensure that the code was written to the *** python standard.
 * Linting errors within <code>.vscode/arctictern.py</code> as this was predefined code and in the <code>migrations</code> folders in all apps were ignored as this was system generated code.
 * An error in the <code>checkout/apps.py</code> file saying that <code>'checkout.signals' imported but unused</code>. However, this is imported during runtime and is used within other files, therefore this error was ignored.
 
 
+### Unfixed Bugs
+* No known bugs have been left unfixed
 
 
 ## Development
