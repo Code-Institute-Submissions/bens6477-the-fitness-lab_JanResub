@@ -54,7 +54,11 @@ GitHub Projects was used to organise the project tasks and timeline. A kanban bo
 
 ## Future Enhancements
 Various additional features would bring a greater user experience to the website:
-* 
+* Allow only users who have bought items to give items reviews and ratings.
+* Allow users to interactively add a rating to the products.
+* Add a sale and deals section and have the first products a customer see be items on sale.
+* Add a wishlist so users can add products which they would like to buy in the future to.
+* Add a related products section where users can see simmilar products to the one they are currently viewing.
 
 
 
