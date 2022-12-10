@@ -47,7 +47,8 @@ class Newsletter(models.Model):
     
     user = models.ForeignKey(User, on_delete=models.CASCADE,
                              related_name='newsletter_user')
-    email = models.EmailField(max_length=254, null=False, blank=False)
+    email = models.EmailField(max_length=254, unique=True,
+                              null=False, blank=False)
     is_registered = models.BooleanField(default=False, null=True, blank=True)
 
     def __str__(self):

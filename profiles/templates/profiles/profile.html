@@ -76,9 +76,17 @@
         </div>
         <div class="row">
             <div class="col-12 col-lg-6">
-                Newsletter
                 <p class="text-muted">Newsletter Signup</p>
-                <a href="{% url 'add_newsletter' %}" class="btn btn-black rounded-0 text-uppercase float-right">Newsletter Signup</a>
+                {% for newsletter in newsletters %}
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <span class="mr-2">{{ newsletter.email }}</span>
+                        <a href="{% url 'edit_newsletter' newsletter.id %}" class="update-link text-info mr-2"><small>Edit</small></a>
+                        <a class="remove-item text-danger"><small>Remove</small></a>
+                    </div>
+                </div>
+                {% endfor %}
+                <a href="{% url 'add_newsletter' %}" class="btn btn-black rounded-0 text-uppercase float-right">Add Email</a>
             </div>
         </div>
     </div>

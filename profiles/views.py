@@ -12,6 +12,7 @@ from checkout.models import Order
 def profile(request):
     """ Display the user's profile. """
     profile = get_object_or_404(UserProfile, user=request.user)
+    newsletters = Newsletter.objects.all().filter(user=request.user)
 
     if request.method == 'POST':
         form = UserProfileForm(request.POST, instance=profile)
@@ -30,6 +31,7 @@ def profile(request):
     context = {
         'form': form,
         'orders': orders,
+        'newsletters': newsletters,
         'on_profile_page': True
     }
 
@@ -39,36 +41,20 @@ def profile(request):
 @login_required
 def add_newsletter(request):
     """ Display the user's newsletter page. """
-    try:
-        newsletter = Newsletter.objects.all().filter(user=request.user)
-        print('newsletter')
-        print(newsletter)
-    except Exception:
-        newsletter = Newsletter(user=request.user)
-        newsletter.save()
+    newsletter = Newsletter(user=request.user)
 
-    newsletter = Newsletter.objects.all().filter(user=request.user)
-    print('newsletter 2')
-    print(newsletter)
-    print(newsletter.count())
-    
-    # newsletter = get_object_or_404(Newsletter, user=request.user)
-    profile = get_object_or_404(UserProfile, user=request.user)
-
-    for nl in newsletter:
-        print('for')
-        if request.method == 'POST':
-            print('POST')
-            form = NewsletterForm(request.POST, request.FILES, instance=nl)
-            if form.is_valid():
-                form.save()
-                messages.success(request, 'Newsletter updated successfully')
-            else:
-                messages.error(request,
-                            ('Update failed. Please ensure the form is valid.'))
+    if request.method == 'POST':
+        print('POST')
+        form = NewsletterForm(request.POST, request.FILES, instance=newsletter)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Newsletter updated successfully')
         else:
-            print('not POST')
-            form = NewsletterForm(instance=nl)
+            messages.error(request,
+                        ('Update failed. Please ensure the form is valid.'))
+    else:
+        print('not POST')
+        form = NewsletterForm(instance=newsletter)
 
     template = 'profiles/newsletter.html'
     context = {
@@ -76,6 +62,37 @@ def add_newsletter(request):
         'newsletter': newsletter,
     }
 
+    return render(request, template, context)
+
+
+@login_required
+def edit_newsletter(request, newsletter_id):
+    """ Display the user's newsletter page. """
+    newsletter = Newsletter.objects.get(pk=newsletter_id)
+    print('newsletter 2')
+    print(newsletter)
+
+    if request.method == 'POST':
+        print('POST')
+        form = NewsletterForm(request.POST, request.FILES, instance=newsletter)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Newsletter updated successfully')
+        else:
+            messages.error(request,
+                        ('Update failed. Please ensure the form is valid.'))
+    else:
+        print('not POST')
+        form = NewsletterForm(instance=newsletter)
+        print('after form')
+
+    template = 'profiles/newsletter.html'
+    context = {
+        'form': form,
+        'newsletter': newsletter,
+    }
+
+    print('before return')
     return render(request, template, context)
 
 
