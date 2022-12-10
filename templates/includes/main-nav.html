@@ -25,20 +25,14 @@
                 <a href="{% url 'items' %}?category=jackets,hoodies" class="dropdown-item">Jackets & Hoodies</a>
                 <a href="{% url 'items' %}?category=tops,tshirts" class="dropdown-item">Tops & T-Shirts</a>
                 <a href="{% url 'items' %}?category=trousers,shorts" class="dropdown-item">Trousers & Shorts</a>
-                <a href="{% url 'items' %}?category=trainers" class="dropdown-item">Trainers</a>
-                <a href="{% url 'items' %}?category=jackets,hoodies,tops,tshirts,trousers,shorts,trainers" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'items' %}?category=jackets,hoodies,tops,tshirts,trousers,shorts" class="dropdown-item">All Clothing</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'items' %}?category=trainers" id="homeware-link">
                 Footwear
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Running</a>
-                <a href="" class="dropdown-item">Trail</a>
-                <a href="" class="dropdown-item">All Footwear</a>
-            </div>
         </li>
     </ul>
 </div>
