@@ -6,5 +6,5 @@ urlpatterns = [
     path('order_history/<order_number>',
          views.order_history,
          name='order_history'),
-    path('newsletter/', views.newsletter, name='newsletter'),
+    path('newsletter/add/', views.add_newsletter, name='add_newsletter'),
 ]

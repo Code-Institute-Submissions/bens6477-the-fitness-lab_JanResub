@@ -78,11 +78,7 @@
             <div class="col-12 col-lg-6">
                 Newsletter
                 <p class="text-muted">Newsletter Signup</p>
-                <form class="mt-3" action="{% url 'profile' %}" method="POST" id="newsletter-update-form">
-                    {% csrf_token %}
-                    {{ form|crispy }}
-                    <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
-                </form>
+                <a href="{% url 'add_newsletter' %}" class="btn btn-black rounded-0 text-uppercase float-right">Newsletter Signup</a>
             </div>
         </div>
     </div>

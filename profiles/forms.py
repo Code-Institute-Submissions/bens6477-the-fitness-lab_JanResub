@@ -39,7 +39,7 @@ class UserProfileForm(forms.ModelForm):
 class NewsletterForm(forms.ModelForm):
     class Meta:
         model = Newsletter
-        fields = ('user', 'is_registered')
+        fields = ('email', 'is_registered')
 
     def __init__(self, *args, **kwargs):
         """
@@ -47,8 +47,17 @@ class NewsletterForm(forms.ModelForm):
         labels and set autofocus on first field
         """
         super().__init__(*args, **kwargs)
-        
+        placeholders = {
+            'email': 'Email',
+            'is_registered': 'No',
+        }
+
         for field in self.fields:
+            if self.fields[field].required:
+                placeholder = f'{placeholders[field]} *'
+            else:
+                placeholder = placeholders[field]
+            self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = ('border-black '
                                                         'rounded-0 '
                                                         'profile-form-input')

@@ -21,15 +21,15 @@ class UserProfileAdmin(admin.ModelAdmin):
 
 class NewsletterAdmin(admin.ModelAdmin):
 
-    readonly_fields = ('user')
+    readonly_fields = ('user',)
 
-    fields = ('user', 'is_registered')
+    fields = ('user', 'email', 'is_registered')
 
-    list_display = ('user', 'is_registered')
+    list_display = ('user', 'email', 'is_registered')
 
     ordering = ('-user',)
 
 
-admin.site.register(UserProfile)
-admin.site.register(Newsletter)
+admin.site.register(UserProfile, UserProfileAdmin)
+admin.site.register(Newsletter, NewsletterAdmin)
 

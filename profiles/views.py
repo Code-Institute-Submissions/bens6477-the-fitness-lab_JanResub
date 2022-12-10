@@ -37,27 +37,43 @@ def profile(request):
 
 
 @login_required
-def newsletter(request):
+def add_newsletter(request):
     """ Display the user's newsletter page. """
-    newsletter = get_object_or_404(Newsletter, user=request.user)
-    form = NewsletterForm(instance=newsletter)
-    if form:
-        messages.success(request, 'Newsletter updated successfully')
+    try:
+        newsletter = Newsletter.objects.all().filter(user=request.user)
+        print('newsletter')
+        print(newsletter)
+    except Exception:
+        newsletter = Newsletter(user=request.user)
+        newsletter.save()
 
-    if request.method == 'POST':
-        # form = NewsletterForm(request.POST, instance=newsletter)
-        if form.is_valid():
-            form.save()
-            messages.success(request, 'Newsletter updated successfully')
+    newsletter = Newsletter.objects.all().filter(user=request.user)
+    print('newsletter 2')
+    print(newsletter)
+    print(newsletter.count())
+    
+    # newsletter = get_object_or_404(Newsletter, user=request.user)
+    profile = get_object_or_404(UserProfile, user=request.user)
+
+    for nl in newsletter:
+        print('for')
+        if request.method == 'POST':
+            print('POST')
+            form = NewsletterForm(request.POST, request.FILES, instance=nl)
+            if form.is_valid():
+                form.save()
+                messages.success(request, 'Newsletter updated successfully')
+            else:
+                messages.error(request,
+                            ('Update failed. Please ensure the form is valid.'))
         else:
-            messages.error(request,
-                           ('Update failed. Please ensure the form is valid.'))
-    else:
-        form = NewsletterForm(instance=newsletter)
+            print('not POST')
+            form = NewsletterForm(instance=nl)
 
     template = 'profiles/newsletter.html'
     context = {
         'form': form,
+        'newsletter': newsletter,
     }
 
     return render(request, template, context)
