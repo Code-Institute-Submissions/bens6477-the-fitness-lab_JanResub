@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'home',
     'items',
     'basket',
+    'brands',
     'checkout',
     'profiles',
 
@@ -222,7 +223,7 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET_TFL', '')
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    DEFAULT_FROM_EMAIL = 'info@thefitnesslab.com'
+    DEFAULT_FROM_EMAIL = 'thefitnesslab@gmail.com'
 else:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True

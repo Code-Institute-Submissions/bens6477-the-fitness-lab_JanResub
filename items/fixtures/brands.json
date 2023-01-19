@@ -1,0 +1,32 @@
+[
+    {
+      "pk": 1,
+      "model": "brands.brand",
+      "fields": {"name": "Nike","biography": ""}
+    },
+    {
+      "pk": 2,
+      "model": "brands.brand",
+      "fields": {"name": "adidas","biography": ""}
+    },
+    {
+      "pk": 3,
+      "model": "brands.brand",
+      "fields": {"name": "Asics","biography": ""}
+    },
+    {
+      "pk": 4,
+      "model": "brands.brand",
+      "fields": {"name": "Under Armour","biography": ""}
+    },
+    {
+      "pk": 5,
+      "model": "brands.brand",
+      "fields": {"name": "New Balance","biography": ""}
+    },
+    {
+      "pk": 6,
+      "model": "brands.brand",
+      "fields": {"name": "The North Face","biography": ""}
+    }
+]

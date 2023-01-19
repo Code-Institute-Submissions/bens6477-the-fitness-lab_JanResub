@@ -5,7 +5,7 @@
       "fields": {
         "name": "Under Armour UA Armour Fleece Full Zip Hoodie",
         "category": 1,
-        "brand": "Under Armour",
+        "brand": 4,
         "sku": 16601329,
         "color": "Black",
         "price": 65,
@@ -20,7 +20,7 @@
       "fields": {
         "name": "Nike Pro Sphere Full Zip Hoodie",
         "category": 1,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16226531,
         "color": "Grey",
         "price": 95,
@@ -35,7 +35,7 @@
       "fields": {
         "name": "Nike Flex Vent Max Full Zip Hooded Jacket",
         "category": 2,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16261624,
         "color": "Grey",
         "price": 73,
@@ -50,7 +50,7 @@
       "fields": {
         "name": "Nike Repel Miler Jacket",
         "category": 2,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16509151,
         "color": "Grey",
         "price": 70,
@@ -65,7 +65,7 @@
       "fields": {
         "name": "Asics Summer Lite-Show Jacket",
         "category": 2,
-        "brand": "Asics",
+        "brand": 3,
         "sku": 16495323,
         "color": "White",
         "price": 98,
@@ -80,7 +80,7 @@
       "fields": {
         "name": "Under Armour OutRun The Storm Jacket",
         "category": 2,
-        "brand": "Under Armour",
+        "brand": 4,
         "sku": 16184017,
         "color": "Black",
         "price": 85,
@@ -95,7 +95,7 @@
       "fields": {
         "name": "Under Armour Woven Graphic Shorts",
         "category": 3,
-        "brand": "Under Armour",
+        "brand": 4,
         "sku": 16607532,
         "color": "Black",
         "price": 22,
@@ -110,7 +110,7 @@
       "fields": {
         "name": "Nike Challenger 7\" Shorts",
         "category": 3,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16655343,
         "color": "Green",
         "price": 33,
@@ -125,7 +125,7 @@
       "fields": {
         "name": "Nike Strike Shorts",
         "category": 3,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16655342,
         "color": "Pink",
         "price": 33,
@@ -140,7 +140,7 @@
       "fields": {
         "name": "Asics Core 7\" Shorts",
         "category": 3,
-        "brand": "Asics",
+        "brand": 3,
         "sku": 16620515,
         "color": "Grey",
         "price": 28,
@@ -155,7 +155,7 @@
       "fields": {
         "name": "Under Armour Vanish Radial T-Shirt",
         "category": 4,
-        "brand": "Under Armour",
+        "brand": 4,
         "sku": 16606254,
         "color": "Blue",
         "price": 36,
@@ -170,7 +170,7 @@
       "fields": {
         "name": "Nike Rise 365 T-Shirt",
         "category": 4,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16509103,
         "color": "Orange",
         "price": 38,
@@ -185,7 +185,7 @@
       "fields": {
         "name": "Asics Icon T-Shirt",
         "category": 4,
-        "brand": "Asics",
+        "brand": 3,
         "sku": 16619111,
         "color": "Black",
         "price": 28,
@@ -200,7 +200,7 @@
       "fields": {
         "name": "New Balance Accelerate T-Shirt",
         "category": 4,
-        "brand": "New Balance",
+        "brand": 5,
         "sku": 16603015,
         "color": "Orange",
         "price": 28,
@@ -215,7 +215,7 @@
       "fields": {
         "name": "adidas Tech T-Shirt",
         "category": 4,
-        "brand": "adidas",
+        "brand": 2,
         "sku": 16645581,
         "color": "Orange",
         "price": 28,
@@ -230,7 +230,7 @@
       "fields": {
         "name": "Under Armour Quadra 1/4 Zip Top",
         "category": 5,
-        "brand": "Under Armour",
+        "brand": 4,
         "sku": 16577348,
         "color": "Grey",
         "price": 45,
@@ -245,7 +245,7 @@
       "fields": {
         "name": "Nike Academy Essential Dri-FIT 1/2 Zip Top",
         "category": 5,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16579034,
         "color": "Grey",
         "price": 35,
@@ -260,7 +260,7 @@
       "fields": {
         "name": "The North Face Run 1/4 Zip Fleece Top",
         "category": 5,
-        "brand": "The North Face",
+        "brand": 6,
         "sku": 16608302,
         "color": "Grey",
         "price": 70,
@@ -275,7 +275,7 @@
       "fields": {
         "name": "Under Armour Bandit Trail 2",
         "category": 6,
-        "brand": "Under Armour",
+        "brand": 4,
         "sku": 16608306,
         "color": "Grey",
         "price": 75,
@@ -290,7 +290,7 @@
       "fields": {
         "name": "Nike MC Trainer 2",
         "category": 6,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16540546,
         "color": "Black",
         "price": 65,
@@ -305,7 +305,7 @@
       "fields": {
         "name": "Nike Air Zoom Pegasus 39",
         "category": 6,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16588226,
         "color": "Blue",
         "price": 110,
@@ -320,7 +320,7 @@
       "fields": {
         "name": "Asics Quantum 180 7",
         "category": 6,
-        "brand": "Asics",
+        "brand": 3,
         "sku": 16606265,
         "color": "Black",
         "price": 135,
@@ -335,7 +335,7 @@
       "fields": {
         "name": "Under Armour HOVR Sonic SE",
         "category": 6,
-        "brand": "Under Armour",
+        "brand": 4,
         "sku": 16597895,
         "color": "White",
         "price": 85,
@@ -350,7 +350,7 @@
       "fields": {
         "name": "adidas Defiant Speed Tennis Shoes",
         "category": 6,
-        "brand": "adidas",
+        "brand": 2,
         "sku": 16525146,
         "color": "Black",
         "price": 90,
@@ -365,7 +365,7 @@
       "fields": {
         "name": "adidas Trainer V Shoes",
         "category": 6,
-        "brand": "adidas",
+        "brand": 2,
         "sku": 16239440,
         "color": "Gold",
         "price": 70,
@@ -380,7 +380,7 @@
       "fields": {
         "name": "Under Armour Vanish Track Pants",
         "category": 7,
-        "brand": "Under Armour",
+        "brand": 4,
         "sku": 16576577,
         "color": "Black",
         "price": 70,
@@ -395,7 +395,7 @@
       "fields": {
         "name": "Nike Pro Dri-FIT Vent Max Track Pants",
         "category": 7,
-        "brand": "Nike",
+        "brand": 1,
         "sku": 16261630,
         "color": "Black",
         "price": 65,
@@ -410,7 +410,7 @@
       "fields": {
         "name": "adidas Designed 4 Gameday Joggers",
         "category": 7,
-        "brand": "adidas",
+        "brand": 2,
         "sku": 16241797,
         "color": "Grey",
         "price": 50,
