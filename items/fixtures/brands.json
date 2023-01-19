@@ -2,31 +2,55 @@
     {
       "pk": 1,
       "model": "brands.brand",
-      "fields": {"name": "Nike","biography": ""}
+      "fields": {
+        "name": "Nike",
+        "location": "",
+        "biography": "",
+        "image": "nike-logo.webp"}
     },
     {
       "pk": 2,
       "model": "brands.brand",
-      "fields": {"name": "adidas","biography": ""}
+      "fields": {
+        "name": "adidas",
+        "location": "",
+        "biography": "",
+        "image": "adidas-logo.webp"}
     },
     {
       "pk": 3,
       "model": "brands.brand",
-      "fields": {"name": "Asics","biography": ""}
+      "fields": {
+        "name": "Asics",
+        "location": "",
+        "biography": "",
+        "image": "asics-logo.webp"}
     },
     {
       "pk": 4,
       "model": "brands.brand",
-      "fields": {"name": "Under Armour","biography": ""}
+      "fields": {
+        "name": "Under Armour",
+        "location": "",
+        "biography": "",
+        "image": "under-armour-logo.webp"}
     },
     {
       "pk": 5,
       "model": "brands.brand",
-      "fields": {"name": "New Balance","biography": ""}
+      "fields": {
+        "name": "New Balance",
+        "location": "",
+        "biography": "",
+        "image": "new-balance-logo.webp"}
     },
     {
       "pk": 6,
       "model": "brands.brand",
-      "fields": {"name": "The North Face","biography": ""}
+      "fields": {
+        "name": "The North Face",
+        "location": "",
+        "biography": "",
+        "image": "the-north-face-logo.webp"}
     }
 ]
