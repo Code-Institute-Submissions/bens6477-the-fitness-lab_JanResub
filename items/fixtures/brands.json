@@ -4,8 +4,8 @@
       "model": "brands.brand",
       "fields": {
         "name": "Nike",
-        "location": "",
-        "biography": "",
+        "location": "Beaverton, Oregon, USA",
+        "biography": "Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area. It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, with revenue in excess of US$37.4 billion in 2020. As of 2020, it employed 76,700 people worldwide. Nike ranked 89th in the 2018 Fortune 500 list of the largest United States corporations by total revenue.",
         "image": "nike-logo.webp"}
     },
     {
@@ -13,8 +13,8 @@
       "model": "brands.brand",
       "fields": {
         "name": "adidas",
-        "location": "",
-        "biography": "",
+        "location": "Herzogenaurach, Bavaria, Germany",
+        "biography": "Adidas AG is a German multinational corporation, founded and headquartered in Herzogenaurach, Bavaria, that designs and manufactures shoes, clothing and accessories. It is the largest sportswear manufacturer in Europe, and the second largest in the world, after Nike. It is the holding company for the Adidas Group, which consists 8.33% stake of the football club Bayern München, and Runtastic, an Austrian fitness technology company. Adidas's revenue for 2018 was listed at €21.915 billion.",
         "image": "adidas-logo.webp"}
     },
     {
@@ -22,8 +22,8 @@
       "model": "brands.brand",
       "fields": {
         "name": "Asics",
-        "location": "",
-        "biography": "",
+        "location": "Kobe, Japan",
+        "biography": "Asics is a Japanese multinational corporation, founded and headquartered in Kobe, Japan, which produces sportswear. The name is an acronym for the Latin phrase anima sana in corpore sano (translated by Asics as \"a sound mind, in a sound body\"). Products manufactured and marketed by Asics include footwear (sneakers, sandals), clothing (T-shirts, jackets, hoodies, swimwear, compression garments, pants, socks), and accessories (bags, backpacks, caps).",
         "image": "asics-logo.webp"}
     },
     {
@@ -31,8 +31,8 @@
       "model": "brands.brand",
       "fields": {
         "name": "Under Armour",
-        "location": "",
-        "biography": "",
+        "location": "Baltimore, Maryland, USA",
+        "biography": "Under Armour, Inc. is an American sports equipment company that manufactures footwear, sports and casual apparel. Under Armour's global headquarters are located in Baltimore, Maryland, with additional offices located in Amsterdam (European headquarters), Austin, Guangzhou, Hong Kong, Houston, Jakarta, London, Mexico City, Munich, New York City, Panama City (international headquarters), Paris, Pittsburgh, Portland, San Francisco, São Paulo, Santiago, Seoul, Shanghai (Greater Chinese headquarters), and Toronto.",
         "image": "under-armour-logo.webp"}
     },
     {
@@ -40,8 +40,8 @@
       "model": "brands.brand",
       "fields": {
         "name": "New Balance",
-        "location": "",
-        "biography": "",
+        "location": "Boston, Massachusetts, USA",
+        "biography": "New Balance Athletics, Inc. (NB), best known as simply New Balance, is one of the world's major sports footwear and apparel manufacturers. Based in Boston, Massachusetts, the multinational corporation was founded in 1906 as the New Balance Arch Support Company. New Balance claims to differentiate its products with technical features, such as blended gel inserts, heel counters and a greater selection of sizes, particularly for very narrow or very wide widths. The company is privately held and totaled $4.4 billion in revenue in 2021.",
         "image": "new-balance-logo.webp"}
     },
     {
@@ -49,8 +49,8 @@
       "model": "brands.brand",
       "fields": {
         "name": "The North Face",
-        "location": "",
-        "biography": "",
+        "location": "Denver, Colorado, USA",
+        "biography": "The North Face is an American outdoor recreation products company. The North Face produces outdoor clothing, footwear, and related equipment. Founded in 1968 to supply climbers, the company's logo draws inspiration from Half Dome, in Yosemite National Park. By the late 1990s, the label had expanded beyond outdoor enthusiasts by focusing on street couture and since the 2000s it is regarded as a streetwear style symbol label. In 2000, it was bought by VF Corporation.",
         "image": "the-north-face-logo.webp"}
     }
 ]

@@ -11,10 +11,13 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <div class="container pt-4">
-        <h1>Brands</h1>
-        <br><br><br><br><br><br>
-        <h1>Brands</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">Brands</h2>
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
         <!-- For each brand in the database -->
         {% for brand in brands %}
             <div class="row py-5">
@@ -31,9 +34,12 @@
                 <!-- Check if loop counter is divisible by 2, to alternate layout -->
                 <div class="col-12 col-md-6 p-5 {% if forloop.counter|divisibleby:2 %}order-lg-second{% else %}order-lg-first{% endif %}">
                     <!-- Brand name + location -->
-                    <h2>{{ brand.name }}, <span class="text-secondary">{{ brand.location }}</span></h2>
+                    <h2>{{ brand.name }}</h2>
+                    <h3><span class="text-secondary">{{ brand.location }}</span></h3>
                     <!-- Brand details -->
-                    {{ brand.biography|linebreaks }}
+                    <p>
+                        {{ brand.biography|linebreaks }}
+                    </p>
                 </div>
             </div>
         {% endfor %}

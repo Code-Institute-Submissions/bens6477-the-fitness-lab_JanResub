@@ -24,7 +24,6 @@ class Item(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True,
                                  on_delete=models.SET_NULL)
     name = models.CharField(max_length=250)
-    brand_name = models.CharField(max_length=25, null=True, blank=True)
     brand = models.ForeignKey(Brand, on_delete=models.CASCADE, default=1)
     description = models.TextField()
     has_sizes = models.BooleanField(default=False, null=True, blank=True)
