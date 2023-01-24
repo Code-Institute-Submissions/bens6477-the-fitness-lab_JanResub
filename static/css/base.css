@@ -118,6 +118,12 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.item-card:hover {
+    border: 2px solid #237ea1 !important;
+}
+
+
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
