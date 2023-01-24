@@ -7,7 +7,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato';
+    font-family: 'Montserrat';
 }
 
 /* from Bulma */
@@ -28,26 +28,27 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #800020;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: #800020;
     color: white;
+    border-radius: 25%;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    color: #800020 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #800020;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #800020;
     color: white !important;
 }
 
@@ -57,20 +58,20 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #99334D;
     color: white;
 }
 
 .text-black {
-    color: #000 !important;
+    color: #800020 !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #800020 !important;
 }
 
 .bg-black {
-    background: #000 !important;
+    background: #800020 !important;
 }
 
 .overlay {
@@ -84,7 +85,7 @@ body {
 }
 
 a.category-badge > span.badge:hover {
-    background: #212529 !important;
+    background: #99334D !important;
     color: #fff !important;
 }
 
@@ -129,7 +130,7 @@ input[name='q']::placeholder {
     height: 0; 
     border-left: 4px solid transparent;
     border-right: 4px solid transparent; 
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #800020;
     position: absolute;
     top: -10px;
     right: 36px;
@@ -215,8 +216,8 @@ input[name='q']::placeholder {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #800020;
+    border: 1px solid #800020;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -229,8 +230,8 @@ input[name='q']::placeholder {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #222;
-    border-color: #222;
+    background-color: #99334D;
+    border-color: #99334D;
 }
 
 .allauth-form-inner-content a {
@@ -312,13 +313,13 @@ input[name='q']::placeholder {
         font-size: .9rem;
     }
 
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
+    .btn.btn-outline-black.rounded,
+    .btn.btn-black.rounded {
         padding: .375rem .375rem;
     }
 
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
+    .btn.btn-outline-black.rounded.btn-lg,
+    .btn.btn-black.rounded.btn-lg {
         padding: .375rem .375rem;
         font-size: .75rem;
     }
