@@ -32,8 +32,14 @@ GitHub Projects was used to organise the project tasks and timeline. A kanban bo
 * Foreign key fields were used to reference objects in different tables
 
 
+### Wireframes
 
 
+![Home Page Wireframe](media/home-wireframe.png)
+![Products Page Wireframe](media/products-wireframe.png)
+![Product Detail Page Wireframe](media/product-detail-wireframe.png)
+![Basket Page Wireframe](media/basket-wireframe.png)
+![Checkout Page Wireframe](media/checkout-wireframe.png)
 
 
 
