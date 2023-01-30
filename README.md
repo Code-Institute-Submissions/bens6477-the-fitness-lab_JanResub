@@ -13,8 +13,48 @@
 
 ## Planning
 
+### User Stories
+#### Viewing & Navigation
+1. As an online shopper I want to have the ability to screen a variety of different products on a list so that I can add them to my basket to purchase.
+1. As an online shopper I want to have the ability to screen details about items specific to that product to understand the cost, description and criteria, the rating, an image of the product and sizes available to me.
+1. As an online shopper I want to have the ability to see easily and swiftly find product deals or special offers that I can utilise to save money on my purchases.
+1. As an online shopper I want to have the ability to see my final purchase cost on the screen at any point of my online shopping experience to keep track of spending and limit over spending.
+
+#### Registration & User Accounts
+5. As a user of an online shopping site, I want to have the ability to create and register for an account with ease so that I can have an online profile and personal account with the site that I can view when I please.
+1. As a user of an online shopping site, I want to have the ability to access my account by logging in and logging out when I want to ensure that I can always get access to my personal information.
+1. As a user of an online shopping site, I want to have the ability to create and change my passwords and recover old or lost passwords in times I may forget it to ensure I can always get access to my account.
+1. As a user of an online shopping site, I want to have the ability to be given confirmation via email that my registration has been successfully completed so I can be sure that my account is fully verified and successful.
+1. As a user of an online shopping site, I want to have the ability to be given confirmation via email that my registration has been successfully completed so I can be sure that my account is fully verified and successful.
+
+#### Sorting & Searching
+10. As an online shopper I want to have the ability to sort the product lists in terms of availability to allow for easily identifying the best related products, best priced products and products sorted in terms of their category.
+1. As an online shopper I want to have the ability to adjust and order a category I choose of a specific product to easily view the best rated product in that specific category or order these products by their name.
+1. As an online shopper I want to have the ability to adjust and order various categories of products at the same time to find best priced and rated products across a wide range of categories, such as “T-Shirts” or “Shorts”.
+1. As an online shopper I want to have the ability to look up and search products using their name or their description to easily find the exact product I’d want to purchase.
+1. As an online shopper I want to have the ability to easily view the products I search for, and the total number of results associated so I can make a quick decision on if the product I want exists and is available.
+
+#### Purchasing & Checkout
+15. As an online shopper I want to have the ability to select with ease both the size and quantity of the product I am purchasing to be certain I don’t select the wrong item/product, quantity, or size by accident.
+1. As an online shopper I want to have the ability to view any items I have added to my bag/basket that I may purchase to ensure I am fully aware of the total cost of my purchase and what items I will be receiving.
+1. As an online shopper I want to have the ability to amend the quantity of separate items in my basket so that I can make changes if I’d like to prior to checking out.
+1. As an online shopper I want to have the ability to enter my payment information easily so that I can have a quick and comfortable check out experience without hassle.
+1. As an online shopper I want to have the ability to feel safe using the site to purchase my items and giving my payment information so that I can be confident providing the necessary information to purchase the desired products.
+1. As an online shopper I want to have the ability to have confirmation of my order and see that it has been completed so that I can ensure that no mistakes have been made.
+1. As an online shopper I want to have the ability to have confirmation of my order and see that it has been completed so that I can ensure that no mistakes have been made.
+
+
+
+#### Admin & Store Management
+22. As the owner of an online store, I want to have the ability to create and upload new items/products so that I can grow my inventory.
+1. As the owner of an online store, I want to have the ability to make amendments and changes to my products so that I can keep up with changing costs for the price of products, the images used on the website, details surrounding the products and any other important product information.
+1. As the owner of an online store, I want to have the ability to remove any items from my store and delete them so that they are not accessible to purchase on the site.
+
+
+
+
 ### Data Model
-This project used Object Oriented programming, utilising model classes to define data. PostgreSQL and ElephantSQL were used to create a relational database of objects. Seven different models were created covering the product catalogue and the journey of the customer from browsing to checkout. These include Item, Brand, Category, Order, OrderLineItem, UserProfile and User. Data fields were defined for each parameter and foreign key fields were used to reference objects in different tables
+This project used Object Oriented programming, utilising model classes to define data. PostgreSQL and ElephantSQL were used to create a relational database of objects. Seven different models were created covering the product catalogue and the journey of the customer from browsing to checkout. These include Item, Brand, Category, Review, Newsletter, Order, OrderLineItem, UserProfile and User. Data fields were defined for each parameter and foreign key fields were used to reference objects in different tables
 
 ![SQL Data Model](media/sql-data-model.png)
 
@@ -43,12 +83,34 @@ This site uses a familiar web design pattern to provide a seamless and instinctu
 ### Agile Approach
 This project was implemented using an Agile approach to take advantage of the iterative and incremental development.
 
-A key advantage of this approach was the iterative and incremental development, which created a highly adaptable and efficient work schedule. Tasks were completed in stages to fulfil user stories, which incrementally improved the functionality of the website. The project was split into two-day iterations, to review progress and adjust the work schedule accordingly.
+A key advantage of this approach was the iterative and incremental development, which created a highly adaptable and efficient work schedule. Tasks were completed in stages to fulfil user stories, which incrementally improved the functionality of the website. The project was split into 5 day iterations, to review progress and adjust the work schedule accordingly.
 
 GitHub Projects was used to organise the project tasks and timeline. A kanban board was used to move user stories across To Do, In Progress and Done columns according to their status.
 
-![Kanban 1](media/kanban1.webp)
-![Kanban 2](media/kanban2.webp)
+#### Epics
+* Viewing & Navigation
+* Registration & User Accounts
+* Sorting & Searching
+* Purchasing & Checkout
+* Admin & Store Management
+
+
+#### Sprints
+
+##### Sprint 1 (Viewing & Navigation)
+![Viewing and Navigation Sprint](media/viewing-navigation-sprint.png)
+
+##### Sprint 2 (Registration & User Accounts)
+![Registration and User Accounts Sprint](media/registration-user-accounts-sprint.png)
+
+##### Sprint 3 (Sorting & Searching)
+![Sorting and Searching Sprint](media/sorting-searching-sprint.png)
+
+##### Sprint 4 (Purchasing & Checkout)
+![Purchasing and Checkout Sprint](media/purchasing-checkout-sprint.png)
+
+##### Sprint 5 (Admin & Store Management)
+![Admin and Store Management Sprint](media/admin-store-management-sprint.png)
 
 
 ## Features
