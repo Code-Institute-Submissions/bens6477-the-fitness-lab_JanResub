@@ -13,6 +13,33 @@
 
 ## Planning
 
+### Data Model
+This project used Object Oriented programming, utilising model classes to define data. PostgreSQL and ElephantSQL were used to create a relational database of objects. Seven different models were created covering the product catalogue and the journey of the customer from browsing to checkout. These include Item, Brand, Category, Order, OrderLineItem, UserProfile and User. Data fields were defined for each parameter and foreign key fields were used to reference objects in different tables
+
+![SQL Data Model](media/sql-data-model.png)
+
+
+### Wireframes
+This site uses a familiar web design pattern to provide a seamless and instinctual experience to the users. The logo was placed in the top left corner with the navigation menu and search bar placed centrally on the top of the screen, alongside personal information and basket links to the right. The pages have large titles, clearly indicating the subject of the proceeding content, and the body of the page is layed out to contain a large amount of information in a small space without being overcrowded or too busy. It accentuates the key content - the products - by making the focus of product and product detail pages the item images themselves. The footer also clearly indicates how users can find out more through Facebook and reading the company's privacy policy. Wireframes were constructed for each page using Balsamiq and are shown below.
+
+#### Home Page
+![Home Page Wireframe](media/home-wireframe.png)
+
+#### Products Page Page
+![Products Page Wireframe](media/products-wireframe.png)
+
+#### Product Detail Page
+![Product Detail Page Wireframe](media/product-detail-wireframe.png)
+
+#### Basket Page
+![Basket Page Wireframe](media/basket-wireframe.png)
+
+#### Checkout Page
+![Checkout Page Wireframe](media/checkout-wireframe.png)
+
+
+
+
 ### Agile Approach
 This project was implemented using an Agile approach to take advantage of the iterative and incremental development.
 
@@ -24,23 +51,19 @@ GitHub Projects was used to organise the project tasks and timeline. A kanban bo
 ![Kanban 2](media/kanban2.webp)
 
 
+## Features
 
-### Data Model
-* This project used Object Oriented programming, utilising model classes to define data.
-* PostgreSQL was used to create a relational database of objects
-* Data fields were defined for each parameter
-* Foreign key fields were used to reference objects in different tables
-
-
-### Wireframes
-
-
-![Home Page Wireframe](media/home-wireframe.png)
-![Products Page Wireframe](media/products-wireframe.png)
-![Product Detail Page Wireframe](media/product-detail-wireframe.png)
-![Basket Page Wireframe](media/basket-wireframe.png)
-![Checkout Page Wireframe](media/checkout-wireframe.png)
-
+### Header
+### Home Page
+### Brands
+### Products / Store
+### Product Details
+### Basket
+### Checkout
+### Order Confirmation & History
+### User Profiles
+### Product Management
+### Error Pages
 
 
 ## Future Enhancements
@@ -226,3 +249,5 @@ Using paid adverts such as Google ads will not initially be a priority due to th
 ### Media
   * [JD Sports](https://www.jdsports.co.uk/) - used for all product images and information.
   * [Pexels](https://www.pexels.com/) -  used for site photos excluding product images.
+  * [Balsamiq](https://balsamiq.com/wireframes/) -  used for site wireframes.
+  * [drawSQL](https://drawsql.app/) -  used for data model planning and illustration.
