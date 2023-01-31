@@ -190,16 +190,42 @@ GitHub Projects was used to organise the project tasks and timeline. A kanban bo
 ## Features
 
 ### Header
+![Header](media/header.jpg)
+
 ### Home Page
-### Brands
-### Products / Store
-### Product Details
+![Home Page](media/home-page.jpg)
+
+### Brands Page
+![Brands Page](media/brands-page.jpg)
+
+### Products Page
+![Products Page](media/products-page.jpg)
+
+### Product Details Page
+![Product Details Page](media/product-detail-page.jpg)
+
 ### Basket
+![Basket Page](media/basket-page.jpg)
+![Basket Toast](media/basket-toast.jpg)
+
 ### Checkout
+![Checkout Page](media/checkout-page.jpg)
+![Processing Page](media/processing-page.jpg)
+
 ### Order Confirmation & History
+![Order Confirmation Page](media/confirmation-page.jpg)
+
 ### User Profiles
+![Profile Page](media/profile-page.jpg)
+![Sign In Page](media/sign-in-page.jpg)
+![Sign Out Page](media/sign-out-page.jpg)
+![Register Page](media/register-page.jpg)
+
 ### Product Management
+![Add Product Page](media/add-product-page.jpg)
+
 ### Error Pages
+![404 Error Page](media/404-error-page.jpg)
 
 
 ## Future Enhancements
@@ -226,9 +252,7 @@ Email marketing will be a key part in increasing website traffic where The newsl
 
 Using paid adverts such as Google ads will not initially be a priority due to the cost but will be in the future.
 
-
-![Facebook Image 1](media/facebook_image1.webp)
-![Facebook Image 2](media/facebook_image1.webp)
+![Facebook Page](media/facebook-page.jpg)
 
 
 

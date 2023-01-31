@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
+    <div class="container">
         <div class="row">
             <div class="col"></div>
         </div>
@@ -10,15 +10,15 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100 mt-5 align-items-center text-center">
+    <div class="container hero-container h-100 mt-5 text-center">
         <div class="row">
-            <div class="col-12 col-lg-6 mx-auto my-auto pt-3 bg-white rounded">
-                <h1 class="display-4 text-black">
+            <div class="col-12 col-lg-6 mx-auto my-auto pt-3 bg-black rounded semi-trans">
+                <h1 class="display-4 text-white">
                     Oops! The page you are looking for isn't available.
                 </h1>
                 <div class="my-5">
                     <h4>
-                        <a href="{% url 'items' %}" class="shop-now-button btn btn-lg rounded text-uppercase py-3">Return To Store</a>
+                        <a href="{% url 'items' %}" class="btn-outline-black btn btn-lg rounded text-uppercase py-3">Return To Store</a>
                     </h4>
                 </div>
             </div>
