@@ -8,56 +8,25 @@
 ![Home Page](media/home-page.jpg)
 
 
-
-
-## Business Model
-
-## User Experience
+## User Experience & Business Model
 ### Strategy
 
 ### The Problem
-From personal experience and research when looking for fitness products, I found that the fitness
-product market is oversaturated with companies requesting high costs and profit margins to sell
-their products at too high a cost to the consumer for the true value and quality of the product.
+From personal experience and research when looking for fitness products, I found that the fitness product market is oversaturated with companies requesting high costs and profit margins to sell their products at too high a cost to the consumer for the true value and quality of the product.
 
 ### The Solution
-My course of action is to continuously source the best fitness brands from all over the world, making
-the perfect combination of the highest quality products consumers will love, want and need for
-prices they can afford.
-My products are from reputable brands that are established and known for their quality and
-durability. These products are ones which even the top athletes can vouch for, used daily by the best
-there is.
-Doing so ensures we create and build a loyal client base, ensuring we collaborate with big brands
-and influencers to get The Fitness Lab name known as the go to place for all men’s fitness needs.
-Over time we will share stories of the fitness goals and limits our customers have achieved using our
-products.
-Through creating strong customer and stakeholder relationships we can build our name and grow
-our business to further take on bigger brands and create amazing marketing, and a great website
-accessible for all in one click.
+My course of action is to continuously source the best fitness brands from all over the world, making the perfect combination of the highest quality products consumers will love, want and need for prices they can afford. My products are from reputable brands that are established and known for their quality and durability. These products are ones which even the top athletes can vouch for, used daily by the best there is.
+Doing so ensures we create and build a loyal client base, ensuring we collaborate with big brands and influencers to get The Fitness Lab name known as the go to place for all men’s fitness needs. Over time we will share stories of the fitness goals and limits our customers have achieved using our products.
+Through creating strong customer and stakeholder relationships we can build our name and grow our business to further take on bigger brands and create amazing marketing, and a great website accessible for all in one click.
 
 ### Target Audience
-Men looking to buy fitness equipment and products - who want the best quality at affordable prices.
-These men strive to meet their fitness gaols and needs – from beginners to worldwide athletes. The
-Fitness Lab is for men to find products they love so they can use them to keep active, improve health
-and wellbeing, while not denting their bank accounts too much.
+Men looking to buy fitness equipment and products - who want the best quality at affordable prices. These men strive to meet their fitness gaols and needs – from beginners to worldwide athletes. The Fitness Lab is for men to find products they love so they can use them to keep active, improve health and wellbeing, while not denting their bank accounts too much.
 
 ### Persona
-Simon, 38, single. Works from home and doesn’t get enough exercise or steps in
-throughout the week. His job becoming remote after the pandemic has led him to
-neglect all gym goals as his office was round the corner from his gym and the
-motivation to get up and go has left him. Simon wants to find a website that inspires him to use brands he know will make his journey and gym process easy and comfortable at prices that won’t put him off. The Fitness Lab has sizes and sportswear that fit everyone and Simon appreciates comfort over everything.
+Simon, 38, single. Works from home and doesn’t get enough exercise or steps in throughout the week. His job becoming remote after the pandemic has led him to neglect all gym goals as his office was round the corner from his gym and the motivation to get up and go has left him. Simon wants to find a website that inspires him to use brands he know will make his journey and gym process easy and comfortable at prices that won’t put him off. The Fitness Lab has sizes and sportswear that fit everyone and Simon appreciates comfort over everything.
 
 ### Testimony
-Averil, 50, mother to Jamin now 17, had both gone through some struggling times when Jamin was
-15 as he was overweight and out of breathe easily - unable to feel confident in his skin. This led
-Averil to research and buy Jamin fitness clothes of the best quality brands and she states that The
-Fitness Lab made the whole process so much easier and left her feeling confident she invested in the
-right products to help improve Jamin’s fitness. At a pivotal age Jamin felt like he wasn’t able to join
-sports clubs or play sports without stopping due to poor stamina when his peers where all able to.
-The Fitness Lab helped ensure Jamin had access to the best brands at prices Averil could afford and
-ignited his new found confidence which led him to push himself to improve his fitness from football
-with friends, sports clubs at school and even now as a 17 year old fitness influencer for many men to
-look up to.
+Averil, 50, mother to Jamin now 17, had both gone through some struggling times when Jamin was 15 as he was overweight and out of breathe easily - unable to feel confident in his skin. This led Averil to research and buy Jamin fitness clothes of the best quality brands and she states that The Fitness Lab made the whole process so much easier and left her feeling confident she invested in the right products to help improve Jamin’s fitness. At a pivotal age Jamin felt like he wasn’t able to join sports clubs or play sports without stopping due to poor stamina when his peers where all able to. The Fitness Lab helped ensure Jamin had access to the best brands at prices Averil could afford and ignited his new found confidence which led him to push himself to improve his fitness from football with friends, sports clubs at school and even now as a 17 year old fitness influencer for many men to look up to.
 
 
 ### Marketing Strategy
@@ -197,6 +166,9 @@ GitHub Projects was used to organise the project tasks and timeline. A kanban bo
 ## Features
 
 ### Header
+* The header and footer are styled to allow users to easily navigate the site and are stuck at the top and bottom of each page.
+* The footer also clearly indicates how users can find out more through Facebook and reading the company's privacy policy
+
 ![Header](media/header.jpg)
 
 ### Home Page
@@ -223,6 +195,7 @@ GitHub Projects was used to organise the project tasks and timeline. A kanban bo
 ![Order Confirmation Page](media/confirmation-page.jpg)
 
 ### User Profiles
+* Users can sign up to newsletters by adding their email. They can also add, edit and delete multiple emails to sign up on multiple channels.
 ![Profile Page](media/profile-page.jpg)
 ![Sign In Page](media/sign-in-page.jpg)
 ![Sign Out Page](media/sign-out-page.jpg)
@@ -272,7 +245,7 @@ Using paid adverts such as Google ads will not initially be a priority due to th
 * [Django](https://www.djangoproject.com/) - Full stack framework with convenient shortcuts for effective website backend. Allauth and Coverage extensions were also used for users authentication and testing code coverage respectively.
     * [django-allauth](https://django-allauth.readthedocs.io/en/latest/index.html) - used to handle the site users' accounts, including sign up, login and logout features.
     * [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/) - used for additional formatting and functionality of the site forms
-    * [django-countries](https://pypi.org/project/django-countries/) - used to btaining a list of countries for customers to select at the checkout form
+    * [django-countries](https://pypi.org/project/django-countries/) - used to display a list of countries for customers to select at the checkout form
     * [django-storages](https://django-storages.readthedocs.io/en/latest/) - used to connect to Amazon S3 for storing the site's static and media files
 * [Stripe](https://stripe.com/) - API used to confirm and handle customer payments
 * [ElephantSQL](https://www.elephantsql.com/) - Database integrated with Heroku
@@ -286,8 +259,6 @@ Using paid adverts such as Google ads will not initially be a priority due to th
 * [GitPod](https://www.gitpod.io/) - IDE for local development
 * [GIT](https://git-scm.com/) - Version Control
 * [GitHub](https://github.com/) - to host the repositories for this project and the live website preview
-
-
 
 
 
@@ -307,8 +278,12 @@ Using paid adverts such as Google ads will not initially be a priority due to th
     * No errors were found when running the JavaScript code through the [JSHint validator](https://jshint.com/).
 * Python
     * All linting errors returned by flake8 were fixed to ensure that the code was written to the PEP8 python standard. Two warnings were were kept and are justified in the Bugs section. The command <code>flake8 --statistics</code> was used to locate all linting errors to be resolved.
-* Accessibility
-    * A high level of accessibility was returned when Lighthouse was ran in Google Chrome developer tools
+
+* Performance & Accessibility
+    * A high level of accessibility was returned when Lighthouse was ran in Google Chrome developer tools. To improve this, image sizes could be reduced to be better optimised for viewing on smaller screens and for users with poor network connection. The SEO score is 100, showing that the site is optimised to the industry standards should it be made publicly available for searching.
+
+![Lighthouse Performance](media/lighthouse-desktop.jpg)
+
 
 ### Flake8 Linting Errors
 * All linting errors returned by flake8 were fixed to ensure that the code was written to the PEP8 python standard.
