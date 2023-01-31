@@ -11,7 +11,8 @@
         "price": 65,
         "description": "Refresh your training 'fits with this men's UA Armour Fleece Full Zip Hoodie from Under Armour. In a Black colourway with Camo accents, this regular-fit workout layer is made from soft, fuzzy Armour Fleece fabric for a lightweight, warm feel. It features a full zip front, a chin guard and a toggle-adjustable hood for essential coverage. With ribbed trims and side pockets, this hoodie is finished up with Under Armour branding to the chest and right cuff. Machine washable. | Our model is 6'0\" with a 38.5\" chest and wears a size medium.",
         "rating": 4.5,
-        "image": "16601329.webp"
+        "image": "16601329.webp",
+        "has_sizes": true
       }
     },
     {
@@ -26,7 +27,8 @@
         "price": 95,
         "description": "Take on Winter workouts in this men's Pro Sphere Full Zip Hoodie from Nike. In an Iron Grey colourway, this standard-fit hoodie is made from lightweight poly fabric that's made using at least 75% recycled polyester fibres. It comes with Nike's Therma-FIT tech to keep you warm, and features a full-zip fastening and fixed hood for custom coverage. With zipped side pockets for secure storage, this hoodie is finished up with the iconic Nike Swoosh logo to the chest. Machine washable | Our model is 6'1\" with a 39.5\" chest and wears a size medium.",
         "rating": 4.5,
-        "image": "16226531.webp"
+        "image": "16226531.webp",
+        "has_sizes": true
       }
     },
     {
@@ -41,7 +43,8 @@
         "price": 73,
         "description": "Stay focused on your sesh when the weather dips in this men's Flex Vent Max Full Zip Hooded Jacket. In a Particle Grey colourway, this standard-fit jacket is made from at least 75% recycled poly fibres, built from Nike Flex fabric for a super-smooth and stretchy feel as you move. Equipped with sweat-wicking Dri-FIT tech for cool comfort, it features a full-zip front and a panelled scuba hood with drawcord fastenings for extra coverage. Cut with elasticated trims and side pockets, this jacket is finished off with a signature Swoosh to the front. Machine washable. | Our model is 6'0\" with a 38.5\" chest and wears a size medium.",
         "rating": 4.8,
-        "image": "16261624.webp"
+        "image": "16261624.webp",
+        "has_sizes": true
       }
     },
     {
@@ -56,7 +59,8 @@
         "price": 70,
         "description": "Stay protected through the seasons in this men's Repel Miler Jacket from Nike. In a Smoke Grey colourway, this training-ready coat is made from lightweight recycled poly fabric, with sweat-wicking Dri-FIT tech to keep you cool and comfy. Using water-repellent tech, it has a fully-fastened front, a raised neckline and an adjustable hood for custom coverage. Featuring elasticated trims and snap-button pockets, this jacket is finished off with reflective detailing and the iconic Swoosh to the chest. Machine washable. | Our model is 5'11\" with a 38\" chest and wears a size medium.",
         "rating": 4.8,
-        "image": "16509151.webp"
+        "image": "16509151.webp",
+        "has_sizes": true
       }
     },
     {
@@ -71,7 +75,8 @@
         "price": 98,
         "description": "Take your training outdoors in this men's Summer Lite-Show Jacket from ASICS. Coming in a Brilliant White and Hazard Green colour block design, this regular-fit layer is made with smooth, lightweight woven poly for lasting wear. With a water and wind-resistant finish to keep you protected, it features a full-length zipper and a fixed hood to amp up the coverage. It has long sleeves with elasticated cuffs, and elastic at the front hem for a secure fit. With a droptail back to keep you covered, it's finished up with signature ASICS branding to the chest. | Our model is 5'11\" with a 38\" chest and wears a size medium.",
         "rating": 4.6,
-        "image": "16495323.webp"
+        "image": "16495323.webp",
+        "has_sizes": true
       }
     },
     {
@@ -86,7 +91,8 @@
         "price": 85,
         "description": "UA Storm technology repels water without sacrificing breathability. Wind-resistant construction protects you from the elements. Durable, lightweight, stretch-woven fabric. 4-way stretch construction moves better in every direction. Back vent construction for added breathability. Secure, zip hand pockets with right-side interior media pocket. Bungee adjust hood & bottom hem for a secure fit. Raglan sleeves.",
         "rating": 5,
-        "image": "16184017.webp"
+        "image": "16184017.webp",
+        "has_sizes": true
       }
     },
     {
@@ -101,7 +107,8 @@
         "price": 22,
         "description": "Level up your performance with these men's Woven Graphic Shorts from Under Armour. In a Black and Blue colourway, these standard-fit shorts are made with smooth woven poly fabric for lasting comfort. They have an elasticated waistband with an adjustable drawcord for a custom fit, and side pockets to stash the essentials. Finished up with Under Armour branding. Machine washable. | Our model is 6'0\" and wears a size medium.",
         "rating": 4.8,
-        "image": "16607532.webp"
+        "image": "16607532.webp",
+        "has_sizes": true
       }
     },
     {
@@ -116,7 +123,8 @@
         "price": 33,
         "description": "Take on your workout with these men's Challenger 7\" Shorts from Nike. In a Rough Green colourway, these regular-fit shorts are cut from a smooth and light fabric that uses at least 75% recycled polyester. They feature an elastic drawcord waistband for custom comfort, mesh panels for breathability and a pocket to the back for storage. With Dri-FIT tech to wick away sweat to keep you cool, they're signed off with a reflective Swoosh to the thigh. Machine washable. | Our model is 6'0\" and wears a size medium.",
         "rating": 4.5,
-        "image": "16655343.webp"
+        "image": "16655343.webp",
+        "has_sizes": true
       }
     },
     {
@@ -131,7 +139,8 @@
         "price": 33,
         "description": "Be at your best with these men's Strike Shorts from Nike. In a Hyper Pink colourway, these slim fit shorts are cut from a light and smooth recycled poly fabric for comfy wear. They feature Dri-FIT tech to wick away sweat to keep you cool and an elastic waistband for a supportive feel. Signed off with the Swoosh to the leg. Machine washable. | Our model is 6'1\" and wears a size medium.",
         "rating": 4.8,
-        "image": "16655342.webp"
+        "image": "16655342.webp",
+        "has_sizes": true
       }
     },
     {
@@ -146,7 +155,8 @@
         "price": 28,
         "description": "Be ready for whatever your day throws at you with these men's Core 7\" Shorts from ASICS. In a Graphite colourway, these shorts are cut from a soft and stretchy woven fabric that's quick drying for cool comfort. It features an elastic drawcord waistband for a personalised fit and is finished up with reflective ASICS branding. Machine washable. | Our model is 6'0\" and wears a size medium.",
         "rating": 5,
-        "image": "16620515.webp"
+        "image": "16620515.webp",
+        "has_sizes": true
       }
     },
     {
@@ -161,7 +171,8 @@
         "price": 36,
         "description": "Smash your workout with this men's Vanish Radial T-Shirt from Under Armour. In a Capri colourway, this slim fit tee is cut from light, breathable polyester and nylon for cool comfort as you train. It features short sleeves with a crew neckline and has mesh panelling for ventilation. With a seamless construction for freedom of movement, this tee is finished up with signature Under Armour branding to the chest and back. Machine washable | Our model is 6'1\" with a 40\" chest and wears a size medium.",
         "rating": 4.9,
-        "image": "16606254.webp"
+        "image": "16606254.webp",
+        "has_sizes": true
       }
     },
     {
@@ -176,7 +187,8 @@
         "price": 38,
         "description": "Get set to move in this men's Rise 365 T-Shirt from Nike. In an unmissable Orange Trance colourway, this standard-fit tee is made from a lightweight, recycled poly knit fabric that's uses Nike's Dri-FIT tech to wick away sweat. It features a crew neckline with short sleeves for a classic look and open-hole knit fabric in high-heat zones for airflow. With reflective elements to keep you seen on night-time runs, this workout tee is finished up with the famous Swoosh to the chest. Machine washable.",
         "rating": 4.5,
-        "image": "16509103.webp"
+        "image": "16509103.webp",
+        "has_sizes": true
       }
     },
     {
@@ -191,7 +203,8 @@
         "price": 28,
         "description": "Move with ease in this men's Icon T-Shirt from ASICS. In a Black colourway, this standard-fit tee is ideal for training or running. It's made from lightweight knit fabric that's designed to keep you cool, and features a crew neckline and short sleeves. With contrasting graphics to the shoulders, this T-shirt is finished with reflective detailing to keep you seen on low light runs, as well as signature ASICS branding. Machine washable. | Our model is 6'1\" with a 39\" chest and wears a size medium.",
         "rating": 4.8,
-        "image": "16619111.webp"
+        "image": "16619111.webp",
+        "has_sizes": true
       }
     },
     {
@@ -206,7 +219,8 @@
         "price": 28,
         "description": "Get to work on your fitness goals with this men's Accelerate T-Shirt from New Balance. In an Electric Red colourway, this standard fit tee is cut from light, breathable recycled polester fabric for cool comfort as you train. It features short sleeves with a crew neckline and is equipped with NB DRYx sweat-wicking tech to keep you dry and fresh during workouts. Finished up with reflective branding to keep you visible. Machine washable | Our model is 6'0\" with a 38.5\" chest and wears a size medium.",
         "rating": 4.8,
-        "image": "16603015.webp"
+        "image": "16603015.webp",
+        "has_sizes": true
       }
     },
     {
@@ -221,7 +235,8 @@
         "price": 28,
         "description": "Glide through your session with this men's Tech T-Shirt from adidas. Exclusive to JD, this regular-fit tee is made from a lightweight poly fabric that's smooth and stretchy lasting comfort. It features AEROREADY tech to wick away sweat to keep you cool and a crew neckline with short sleeves for a classic cut. Signed off with the Badge of Sport to the chest. Machine washable. | Our model is 6'1\" with a 37.5\" chest and wears a size medium.",
         "rating": 4.8,
-        "image": "16645581.webp"
+        "image": "16645581.webp",
+        "has_sizes": true
       }
     },
     {
@@ -236,7 +251,8 @@
         "price": 45,
         "description": "Smash your workout session in this men's Quadra 1/4 Zip Top from Under Armour. Exclusive to JD, this top is made with smooth, lightweight poly fabric that's breathable and sweat-wicking for supreme comfort. In a Steel colourway, it features a quarter zip closure with a raised collar to adjust your aiflow, and long, raglan sleeves for maximum movement. Finished up with signature Under Armour branding at the chest and a downsized logo to the nape. Machine washable. | Our model is 6'0\" with a 38.5\" chest and wears a size medium.",
         "rating": 4.9,
-        "image": "16577348.webp"
+        "image": "16577348.webp",
+        "has_sizes": true
       }
     },
     {
@@ -251,7 +267,8 @@
         "price": 35,
         "description": "Hit the pitch in this men's Academy Essential 1/2 Zip Top from Nike. In a Smoke Grey colourway, this standard-fit top is made from smooth, recycled poly fabric with Nike's Dri-FIT tech to wick away sweat when the game heats up. It features a half zip fastening and a raised mock neckline to adjust your airflow. With long sleeves, this training top is finished up with a signature Swoosh logo at the chest. Machine washable. | Our model is 6'1\" with a 39\" chest and wears a size medium.",
         "rating": 4.5,
-        "image": "16579034.webp"
+        "image": "16579034.webp",
+        "has_sizes": true
       }
     },
     {
@@ -266,7 +283,8 @@
         "price": 70,
         "description": "Focus on those PB's when you run with this men's Run 1/4 Zip Fleece Top from The North Face. In a Grey and Black colourway, this slim fit top is cut from light, stretchy poly fabric for flexible comfort as you go. It features long sleeves with a 1/4 zip fastening for coverage and is equipped with FlashDry XD sweat-wicking tech to keep you dry and fresh. It has mesh inserts for ventilation, with thumbloops to secure the fit and is finished up with reflective branding to keep you visible in low light. Machine washable. | Our model is 5'11\" with a 38\" chest and wears a size medium.",
         "rating": 5,
-        "image": "16608302.webp"
+        "image": "16608302.webp",
+        "has_sizes": true
       }
     },
     {
@@ -281,7 +299,8 @@
         "price": 75,
         "description": "Gear up for the trails in these men's Bandit Trail 2 trainers from Under Armour. In a Jet Gray and Orange Ice colourway, these treads have a breathable two-tone mesh upper with durbale synthetic overlays for support. They have a tonal lace fastening with a molded sockliner to hug the foot for a snug, secure feel, with Charged Cushioning in the midsole for next-level comfort and a responsive ride. With a tough rubber outsole with grippy lugs for total traction, they're finished up with classic Under Armour branding throughout.",
         "rating": 4.6,
-        "image": "16608306.webp"
+        "image": "16608306.webp",
+        "has_sizes": true
       }
     },
     {
@@ -296,7 +315,8 @@
         "price": 65,
         "description": "Shift your training from circuit sessions to running workouts with these men's MC Trainer 2 sneakers from Nike. In a Black colourway, these versatile runners have a breathable mesh and synthetic skin upper for streamlined support. Support wraps from the heel to the sides for essential stability when you lace up, while a forefoot band locks you in place. Underfoot, a soft foam midsole provides controlled cushioning and runs up the sides to help brace your foot on lateral movements. With a thick yet flexible rubber outsole for max grip, these trainers are finished off with Volt Swoosh branding to the sidewalls.",
         "rating": 4.8,
-        "image": "16540546.webp"
+        "image": "16540546.webp",
+        "has_sizes": true
       }
     },
     {
@@ -311,7 +331,8 @@
         "price": 110,
         "description": "Get a step closer to your goal when you lace up in these women's Air Zoom Pegasus 39 trainers from Nike. In a Bright Spruce colourway, these runners have an engineered mesh upper for a lightweight and breathable yet durable feel. Flywire tech is integrated with a midfoot band for a supported fit, and the padded ankle collar and tongue add comfort to your training. Underfoot, a Nike React midsole delivers a smooth, responsive ride, while the Waffle-inspired rubber outsole takes your grip to the next level. These trainers are finished off with contratsing Light Crimson Swoosh branding to the sidewalls.",
         "rating": 5,
-        "image": "16588226.webp"
+        "image": "16588226.webp",
+        "has_sizes": true
       }
     },
     {
@@ -326,7 +347,8 @@
         "price": 135,
         "description": "Go further when you lace up in these men's GEL-Quantum 180 7 trainers from ASICS. In a Black colourway, these runners have an upper made from a jacquard mesh that's light and breathable. They feature a lace fastening with a padded ankle collar for a snug, supportive fit and sit on a midsole that uses GEL tech and FLYTEFOAM cushioning for an ultra-responsive ride. With a rubber outsole for essential grip, they're signed off with ASICS branding throughout.",
         "rating": 4.3,
-        "image": "16606265.webp"
+        "image": "16606265.webp",
+        "has_sizes": true
       }
     },
     {
@@ -341,7 +363,8 @@
         "price": 85,
         "description": "Pick up the pace with these men's HOVR Sonic SE trainers from Under Armour. In a White and Orange Shock colourway, these runners are cut from light, breathable ripstop textile in the upper for cool comfort. They feature a lace fastening to lock you in, with a padded collar for added support and an OrthoLite sockliner for a snug fit. Underfoot, they sit on a cushioned UA HOVR midsole for a smooth ride, with a grippy rubber outsole for total traction as you run. Finished up with signature Under Armour branding to the tongue, heel and sidewalls.",
         "rating": 4.4,
-        "image": "16597895.webp"
+        "image": "16597895.webp",
+        "has_sizes": true
       }
     },
     {
@@ -356,7 +379,8 @@
         "price": 90,
         "description": "What's the point in setting targets if you can't reach them in record time? Created for players in a hurry to succeed, these adidas tennis shoes keep you quick with a lightweight mesh upper and clay court-optimised Adiwear outsole. Support in the midfoot area helps you react quickly when opponents try to catch you off guard. The flexible Bounce midsole smooths out every sprint and sidestep.Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste.",
         "rating": 5,
-        "image": "16525146.webp"
+        "image": "16525146.webp",
+        "has_sizes": true
       }
     },
     {
@@ -371,7 +395,8 @@
         "price": 70,
         "description": "These adidas shoes combine a stable fit and an airy feel for comfort as you kick off your daily training. A flexible upper provides just the right amount of stretch. Lightweight Bounce cushioning underfoot delivers comfort from the first step of your day to the last.Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste.",
         "rating": 4.6,
-        "image": "16239440.webp"
+        "image": "16239440.webp",
+        "has_sizes": true
       }
     },
     {
@@ -386,7 +411,8 @@
         "price": 70,
         "description": "From the streets to the workout, rep these men's Vanish Track Pants from Under Armour. Exclusive to JD, these track pants are cut from smooth, durable poly fabric for lasting wear. In a Black colourway, they feature an elasticated waistband, with woven ankle cuffs to secure the fit. Finished up with Under Armour branding around the cuffs, and a signature logo at the thigh. Machine washable.",
         "rating": 4.2,
-        "image": "16576577.webp"
+        "image": "16576577.webp",
+        "has_sizes": true
       }
     },
     {
@@ -401,7 +427,8 @@
         "price": 65,
         "description": "Take on a training session in these men's Pro Dri-FIT Vent Max Track Pants from Nike. In a Black colourway, these standard-fit pants are made from soft and stretchy poly fabric that's made with a least 75% recycled poly fibers. They feature tapered legs and come equipped with Dri-FIT tech to wick away excess sweat. With an elasticated waistband with tonal Nike Pro branding, these track pants are finished up with side pockets and the iconic Swoosh logo printed to the thigh. Machine washable. | Our model is 5'10\" and wears a size medium.",
         "rating": 4.4,
-        "image": "16261630.webp"
+        "image": "16261630.webp",
+        "has_sizes": true
       }
     },
     {
@@ -416,7 +443,8 @@
         "price": 50,
         "description": "Get in the right mindset with these men's Designed 4 Gameday Joggers from adidas. In a Dash Grey colourway, these slim-fit joggers are made from a soft poly-cotton blend, which uses recycled polyester fabric. They feature an elasticated waistband with an adjustable drawcord for a custom fit, as well as tapered legs with ribbed cuffs. With snap-button pockets for storage, these pants are finished with the Badge of Sport logo to the thigh. Machine washable. | Our model is 6'1\" and wears a size medium._",
         "rating": 4.5,
-        "image": "16241797.webp"
+        "image": "16241797.webp",
+        "has_sizes": true
       }
     }
   ]
