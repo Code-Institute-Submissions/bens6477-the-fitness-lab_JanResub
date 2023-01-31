@@ -52,7 +52,7 @@ def add_newsletter(request):
             messages.success(request, 'Newsletter updated successfully')
         else:
             messages.error(request,
-                        ('Update failed. Please ensure the form is valid.'))
+                           ('Update failed. Please ensure the form is valid.'))
     else:
         form = NewsletterForm(instance=newsletter)
 
@@ -77,7 +77,7 @@ def edit_newsletter(request, newsletter_id):
             messages.success(request, 'Newsletter updated successfully')
         else:
             messages.error(request,
-                        ('Update failed. Please ensure the form is valid.'))
+                           ('Update failed. Please ensure the form is valid.'))
     else:
         form = NewsletterForm(instance=newsletter)
 

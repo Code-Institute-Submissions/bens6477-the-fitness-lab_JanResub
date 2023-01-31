@@ -134,7 +134,6 @@
                                     </div>
                                 </div>
                                 {% if user == review.user %}
-                                <a href="#" class="edit-review btn btn-info mb-1">Edit Review</a>
                                 <a href="{% url 'delete_review' review.id %}" class="btn btn-danger mb-1">Delete Review</a>
                                 {% endif %}
                             </div>

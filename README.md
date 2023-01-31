@@ -303,7 +303,8 @@ Using paid adverts such as Google ads will not initially be a priority due to th
 ### Flake8 Linting Errors
 * All linting errors returned by flake8 were fixed to ensure that the code was written to the *** python standard.
 * Linting errors within <code>.vscode/arctictern.py</code> as this was predefined code and in the <code>migrations</code> folders in all apps were ignored as this was system generated code.
-* An error in the <code>checkout/apps.py</code> file saying that <code>'checkout.signals' imported but unused</code>. However, this is imported during runtime and is used within other files, therefore this error was ignored.
+* An error in the <code>checkout/apps.py</code> file says that <code>'checkout.signals' imported but unused</code>. However, this is imported during runtime and is used within other files, therefore this error was ignored.
+* An error in the <code>fitness_lab/urls.py</code> file says that <code>redefinition of unused 'handler404' from line 21</code>. However, this is used to handle the 404 error page and is used within other files, therefore this error was ignored.
 
 
 ### Unfixed Bugs
@@ -345,7 +346,9 @@ As the owner of an online store, I want to have the ability to remove any items 
 Resolved | Bug | Fix 
 :---: | --- | --- 
 🟢 | Static files were returning 404 errors | Added `STATICFILES_DIRS` to settings
-🟢 | Order confirmation email does not have £ or 2 decimal places | Add £ and floatformat to email template
+🟢 | Order confirmation email does not have £ | Added £ to email template
+🟢 | An error in the <code>checkout/apps.py</code> file says that <code>'checkout.signals' imported but unused</code>. | This is imported during runtime and is used within other files, therefore this error was ignored.
+🟢 | An error in the <code>fitness_lab/urls.py</code> file says that <code>redefinition of unused 'handler404' from line 21</code>. | This is used to handle the 404 error page and is used within other files, therefore this error was ignored.
 
 
 ## Development

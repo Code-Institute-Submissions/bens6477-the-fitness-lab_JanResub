@@ -44,7 +44,7 @@ class Newsletter(models.Model):
     A newsletter model for maintaining the users who have subscribed
     to the mailing list.
     """
-    
+
     user = models.ForeignKey(User, on_delete=models.CASCADE,
                              related_name='newsletter_user')
     email = models.EmailField(max_length=254, unique=True,
