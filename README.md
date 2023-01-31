@@ -29,7 +29,7 @@ durability. These products are ones which even the top athletes can vouch for, u
 there is.
 Doing so ensures we create and build a loyal client base, ensuring we collaborate with big brands
 and influencers to get The Fitness Lab name known as the go to place for all men’s fitness needs.
-Overtime we will share stories of the fitness goals and limits our customers have achieved using our
+Over time we will share stories of the fitness goals and limits our customers have achieved using our
 products.
 Through creating strong customer and stakeholder relationships we can build our name and grow
 our business to further take on bigger brands and create amazing marketing, and a great website
