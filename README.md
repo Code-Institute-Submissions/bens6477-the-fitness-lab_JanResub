@@ -5,7 +5,7 @@
 
 [Live Site Link](https://thefitnesslab.herokuapp.com/)
 
-![Site Overview](media/site_overview.webp)
+![Home Page](media/home-page.jpg)
 
 
 
@@ -152,7 +152,14 @@ This site uses a familiar web design pattern to provide a seamless and instinctu
 ![Checkout Page Wireframe](media/checkout-wireframe.png)
 
 
-
+### Colour Scheme
+* The site's main colours of blue, black and white were chosen to appeal to men as this is traditionally the colour of boys and men.
+* Colours used:
+  * #00395a (Blue)
+  * #6498c4 (Light Blue)
+  * #ffffff (White)
+  * #000000 (Black)
+* From this it was decided that fonts would alternate between black, white and blue, depending on the background colour, where blue was used to accentuate details such as the price.It was ensured that sufficient contrast was chosen to provide the best experience for the users. The inversion was also used to highlight active classes or upon hovering over elements.
 
 ### Agile Approach
 This project was implemented using an Agile approach to take advantage of the iterative and incremental development.
@@ -237,9 +244,6 @@ Various additional features would bring a greater user experience to the website
 * Add a related products section where users can see similar products to the one they are currently viewing.
 
 
-
-
-
 ## Marketing
 
 A Facebook page was created to help generate business for the site and to raise awareness of the brand.
@@ -291,8 +295,14 @@ Using paid adverts such as Google ads will not initially be a priority due to th
 ### Validator Testing
 * HTML
     * No errors were found when running the HTML code through the [official W3C validator](https://validator.w3.org/)
+
+![HTML Validator](media/html-validator.jpg)
+
 * CSS
     * No errors were found when running the CSS code through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS Validator](media/css-validator.jpg)
+
 * JavaScript
     * No errors were found when running the JavaScript code through the [JSHint validator](https://jshint.com/).
 * Python
@@ -305,10 +315,6 @@ Using paid adverts such as Google ads will not initially be a priority due to th
 * Linting errors within <code>.vscode/arctictern.py</code> as this was predefined code and in the <code>migrations</code> folders in all apps were ignored as this was system generated code.
 * An error in the <code>checkout/apps.py</code> file says that <code>'checkout.signals' imported but unused</code>. However, this is imported during runtime and is used within other files, therefore this error was ignored.
 * An error in the <code>fitness_lab/urls.py</code> file says that <code>redefinition of unused 'handler404' from line 21</code>. However, this is used to handle the 404 error page and is used within other files, therefore this error was ignored.
-
-
-### Unfixed Bugs
-* No known bugs have been left unfixed
 
 ### Manual Testing
 All user stories were tested manually to ensure that all functionality was working as expected and provided the desired features to the users and admins of the site. Behaviour driven development was used in order to test each user story objectively, and with a cleary defined success criteria.
