@@ -10,6 +10,82 @@
 
 
 
+## Business Model
+
+## User Experience
+### Strategy
+
+### The Problem
+From personal experience and research when looking for fitness products, I found that the fitness
+product market is oversaturated with companies requesting high costs and profit margins to sell
+their products at too high a cost to the consumer for the true value and quality of the product.
+
+### The Solution
+My course of action is to continuously source the best fitness brands from all over the world, making
+the perfect combination of the highest quality products consumers will love, want and need for
+prices they can afford.
+My products are from reputable brands that are established and known for their quality and
+durability. These products are ones which even the top athletes can vouch for, used daily by the best
+there is.
+Doing so ensures we create and build a loyal client base, ensuring we collaborate with big brands
+and influencers to get The Fitness Lab name known as the go to place for all men’s fitness needs.
+Overtime we will share stories of the fitness goals and limits our customers have achieved using our
+products.
+Through creating strong customer and stakeholder relationships we can build our name and grow
+our business to further take on bigger brands and create amazing marketing, and a great website
+accessible for all in one click.
+
+### Target Audience
+Men looking to buy fitness equipment and products - who want the best quality at affordable prices.
+These men strive to meet their fitness gaols and needs – from beginners to worldwide athletes. The
+Fitness Lab is for men to find products they love so they can use them to keep active, improve health
+and wellbeing, while not denting their bank accounts too much.
+
+### Persona
+Simon, 38, single. Works from home and doesn’t get enough exercise or steps in
+throughout the week. His job becoming remote after the pandemic has led him to
+neglect all gym goals as his office was round the corner from his gym and the
+motivation to get up and go has left him. Simon wants to find a website that inspires him to use brands he know will make his journey and gym process easy and comfortable at prices that won’t put him off. The Fitness Lab has sizes and sportswear that fit everyone and Simon appreciates comfort over everything.
+
+### Testimony
+Averil, 50, mother to Jamin now 17, had both gone through some struggling times when Jamin was
+15 as he was overweight and out of breathe easily - unable to feel confident in his skin. This led
+Averil to research and buy Jamin fitness clothes of the best quality brands and she states that The
+Fitness Lab made the whole process so much easier and left her feeling confident she invested in the
+right products to help improve Jamin’s fitness. At a pivotal age Jamin felt like he wasn’t able to join
+sports clubs or play sports without stopping due to poor stamina when his peers where all able to.
+The Fitness Lab helped ensure Jamin had access to the best brands at prices Averil could afford and
+ignited his new found confidence which led him to push himself to improve his fitness from football
+with friends, sports clubs at school and even now as a 17 year old fitness influencer for many men to
+look up to.
+
+
+### Marketing Strategy
+* The main goal of The Fitness Lab is to create a brand men can truly believe in and
+feel secure purchasing their fitness products from. We aim to increase our customer
+base from sourcing only top quality brands even the best athletes can vouch for. We
+will increase our sales by being the number one company customers and
+stakeholders go to for the best fitness brands at prices customers can afford.
+
+* This is where The Fitness Lab Website comes in. Having a strong brand and website
+to start our company means we can build loyal consumer relationships using our
+easy to use website to show customers how smooth and secure The Fitness Lab
+experience is. This creates a positive, growing online presence bringing with it
+everyday customers as well as highly respected athletes, reaching audiences across
+the globe as our popularity increases in line with the increases of our market scale
+and scope.
+
+* With a well-functioning website and a social media page as our beginning point, we
+can begin to reach further audiences and men on social media – branching out with
+advertisement in gyms, on sports programmes and at live sporting events. This will
+help us to create a profit used to continuously grow our range of products and the
+brands we partner with while also evolving our SEO – building a whole host of
+features in the future such as a fitness gym website with plans tailored to suit
+individual fitness gaols using only our products, educational resources and stories of
+men who have worked with The Fitness Lab and used our company to better their
+health and wellbeing and continuous improvements to grow as a whole, becoming
+the perfect formula for your fitness needs.
+
 
 ## Planning
 
