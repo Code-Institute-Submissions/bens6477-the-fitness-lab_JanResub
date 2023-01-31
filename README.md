@@ -288,8 +288,6 @@ Using paid adverts such as Google ads will not initially be a priority due to th
 ### Flake8 Linting Errors
 * All linting errors returned by flake8 were fixed to ensure that the code was written to the PEP8 python standard.
 * Linting errors within <code>.vscode/arctictern.py</code> as this was predefined code and in the <code>migrations</code> folders in all apps were ignored as this was system generated code.
-* An error in the <code>checkout/apps.py</code> file says that <code>'checkout.signals' imported but unused</code>. However, this is imported during runtime and is used within other files, therefore this error was ignored.
-* An error in the <code>fitness_lab/urls.py</code> file says that <code>redefinition of unused 'handler404' from line 21</code>. However, this is used to handle the 404 error page and is used within other files, therefore this error was ignored.
 
 ### Manual Testing
 All user stories were tested manually to ensure that all functionality was working as expected and provided the desired features to the users and admins of the site. Behaviour driven development was used in order to test each user story objectively, and with a cleary defined success criteria.
