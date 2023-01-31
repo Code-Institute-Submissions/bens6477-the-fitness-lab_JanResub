@@ -296,12 +296,12 @@ Using paid adverts such as Google ads will not initially be a priority due to th
 * JavaScript
     * No errors were found when running the JavaScript code through the [JSHint validator](https://jshint.com/).
 * Python
-    * No errors were found when running the Python code through the [PEP8 online validator](http://pep8online.com/).
+    * All linting errors returned by flake8 were fixed to ensure that the code was written to the PEP8 python standard. Two warnings were were kept and are justified in the Bugs section. The command <code>flake8 --statistics</code> was used to locate all linting errors to be resolved.
 * Accessibility
     * A high level of accessibility was returned when Lighthouse was ran in Google Chrome developer tools
 
 ### Flake8 Linting Errors
-* All linting errors returned by flake8 were fixed to ensure that the code was written to the *** python standard.
+* All linting errors returned by flake8 were fixed to ensure that the code was written to the PEP8 python standard.
 * Linting errors within <code>.vscode/arctictern.py</code> as this was predefined code and in the <code>migrations</code> folders in all apps were ignored as this was system generated code.
 * An error in the <code>checkout/apps.py</code> file says that <code>'checkout.signals' imported but unused</code>. However, this is imported during runtime and is used within other files, therefore this error was ignored.
 * An error in the <code>fitness_lab/urls.py</code> file says that <code>redefinition of unused 'handler404' from line 21</code>. However, this is used to handle the 404 error page and is used within other files, therefore this error was ignored.
